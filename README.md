@@ -150,7 +150,8 @@ Place the Excel file inside the project folder.
 ---
 
 ## 🚀 Running the Script
-
+> 📝 Note:
+Before running the code, make sure the required Excel file is present in the same folder as the script. The code will not work if the Excel file is missing or placed in a different directory. Double-check that the Excel file is in the correct location before execution.
 ### Manual Run
 
 1. Open terminal in the project folder
