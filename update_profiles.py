@@ -326,7 +326,7 @@ def process_workbook(filepath: Path):
     total_rows = ws.max_row
 
     # Step 2 — Iterate over every student (Row 2 onwards)
-    for row in range(2, 13):
+    for row in range(2, total_rows + 1):
         # Try to show a student identifier (col A or B usually has a name/ID)
         student_label = ws.cell(row=row, column=1).value or ws.cell(row=row, column=2).value or ""
         print(f"Processing row {row}: {student_label} ...")
